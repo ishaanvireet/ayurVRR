@@ -1,0 +1,885 @@
+*{
+    margin: 0px;
+    padding: 0;
+}  
+
+.feed{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(244, 87, 87);
+    color: #dad4cd;
+    position: fixed;
+    top: 410px;
+    text-decoration: none;
+    transform: rotate(-90deg);
+    left: 1380px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.feed a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.head{
+    height: 80px;
+    width: 100%;
+   /* background-color: #BBA0CA;*/
+   background-color: whitesmoke;
+   
+   /* background-image: url("head1.jpg");*/
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    gap: 8rem;
+    border-radius: 10px;
+
+}
+
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid rgb(26, 24, 24);
+}
+
+.ayur{
+    height: 56px;
+    width: 250px;
+    /*color: rgb(44, 38, 35);*/
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;  
+    font-family: serif; 
+   background-image: url("ayl.png");
+    background-size: cover;
+   /* box-shadow: 0 10px 25px rgb(210, 205, 205);
+    border: 2px solid white;*/
+    padding-left: 0px;
+ 
+ 
+    
+}
+.ayur  ay{
+    height: 55px;
+    width: 150px;
+    display: inline-block;
+}
+
+.ayur vr{
+    height: 55px;
+    width: 50px;
+    display: inline-block;
+   
+}
+
+
+.about{
+    height: 20px;
+    width: 50px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.all{
+    height: 60px;
+    width: 700px;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.searchbar{
+    /*width: 100%;*/
+    height: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #fff;
+    align-items: center;
+    box-shadow: 0 10px 5px rgb(103, 101, 101);
+    
+    
+    
+  /*  border: none;
+    font-size: 1rem;*/
+   /* background-color: #BBA0CA;*/
+}
+.searchmain:hover  input{
+    width: 400px;
+}
+.searchmain input{
+    width: 50px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.searchmain a .fas{
+    color: rgba(6, 8, 8, 0.553);
+    font-size: 18px;
+    
+    
+}
+
+
+option{
+    width: 52px;
+    height: 40px;
+    border: 1px solid white;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-color: #f3f3f3;
+}
+
+.fed{
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+   
+}
+
+.home{
+    height: 40px;
+    width: 25px;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-right: 10PX; 
+  
+     
+}
+.signi{
+    height: 2rem;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #219ebc;
+    color: #fff;
+    box-shadow: 0 10px 25px rgb(103, 101, 101);
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.signi a{
+    text-decoration: none;
+    color: white;
+}
+.allbutton{
+    height: 60px;
+    width: 1965;
+   /* background-color:white;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*background-color: rgba(221, 221, 240, 0.8);*/
+    background-color: white;
+    border-radius: 50px;
+}
+
+.box3 a{
+    color: #373635;
+    text-decoration: none;
+    
+}
+
+/*mid*/
+.midd{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+
+/*main2*/
+
+.main2{
+    height: 600px;
+    width: 1964;
+    /*background-image: url("vr100.png");*/
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-evenly;
+    /*animation: slider 50s infinite linear ;*/
+   background-image: linear-gradient(rgba(113, 113, 123, 0.8),rgba(121, 121, 134, 0.8)),url("ayurveda.jpg");
+   background-position: center;
+   position: relative;
+   border-radius: 30px;
+} 
+
+/*@keyframes slider{
+    0%{background-image: url("vr100.avif");}
+    25%{background-image: url("vr77.jpg");}
+    50%{background-image: url("vr44.jpg");}
+    75%{background-image: url("vr66.jpg");}
+}*/
+
+.box12{
+    height: 200px;
+    width: 1965;
+    /*background-color: #e8e4df;*/
+    color: black;
+   /* font-family: cursive;*/
+    text-align: center;
+    justify-content: center;
+ 
+  display: flex;
+  justify-content:space-evenly ;
+  text-align: center;
+
+  
+}
+
+.box1{
+    height: 200px;
+    width: 300;
+    /*background-color: #e8e4df;*/
+    color: black;
+   /* font-family: cursive;*/
+    text-align: center;
+    justify-content: center;
+
+  display: inline-block;
+  
+  margin-right: 20pxpx;
+ /* margin-bottom: 500px;*/
+ 
+padding-left: 1000;  
+}
+
+.box111{
+    height: 200px;
+    width: 1000px;
+    
+    color: black;
+   /* font-family: cursive;*/
+    text-align: center;
+    justify-content: center;
+
+  display: inline-block;
+  
+  margin-right: 20pxpx;
+ /* margin-bottom: 500px;*/
+ 
+padding-left: 1000;  
+}
+.box111 h2{
+    color: rgb(226, 205, 42);
+    font-size: 4rem;
+}
+
+.box11{
+    height: 200px;
+    width: 300px;
+    /*background-color: #e8e4df;*/
+    color: black;
+   /* font-family: cursive;*/
+    text-align: center;
+    justify-content: center;
+
+  display: inline-block;
+  
+  margin-right: 20pxpx;
+ /* margin-bottom: 500px;*/
+ 
+padding-left: 1000;  
+}
+
+.box1 h3{
+    color: #fff;
+    font-family: cursive;
+}
+.box1 h1{
+    color: #0a1128;
+}
+
+.box2{
+    height: 40px;
+    width: 110px;
+    background-color:orange;
+    color: rgb(58, 58, 144);
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /*border: 1px solid black;*/
+    font-size: 1.1rem;
+    box-shadow: 0 10px 25px rgb(221, 208, 208);
+    margin-top: 10px;
+}
+
+.box3{
+    height: 40px;
+    width: 150px;
+    background-color: #fff;
+    color: black;
+   /* font-family: Arial, Helvetica, sans-serif;*/
+    text-align: center;
+    justify-content: center;
+    /*border: 1px solid black;*/
+    border-radius: 5px;
+   
+}
+
+.box4{
+    height: 50px;
+    width: 250px;
+    background-color: #e8e4df;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 0 10px 25px rgb(103, 101, 101);
+}
+
+.box5{
+    height: 50px;
+    width: 250px;
+    background-color: #e8e4df;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 0 10px 25px rgb(103, 101, 101);
+}
+.box6{
+    height: 50px;
+    width: 250px;
+    background-color: #e8e4df;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black; 
+    border-radius: 7px;
+    box-shadow: 0 10px 25px rgb(103, 101, 101);
+}
+
+.box7{
+    height: 50px;
+    width: 250px;
+    background-color: #e8e4df;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 0 10px 25px rgb(191, 134, 134);
+}
+
+.message{
+    height: 300px;
+    width: 1964;
+    /*text-align: center;*/
+   /* background: linear-gradient(30deg, rgb(86, 86, 120),white);*/
+   background-color: #fff;
+    margin-top: 15px;
+     font-family: 'Times New Roman', Times, serif;
+     display: flex;
+     text-align: center;
+     justify-content: space-evenly;
+}
+
+.imgabout{
+    height: 300px;
+    width: 600px;
+    background-color: #219ebc;
+    background-image: url("ayab1.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+.aboutim{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    /*margin-top: 50px*/
+}
+
+.nyaya{
+    height: 500px;
+    width: 1965;
+    background-image: linear-gradient(rgba(113, 113, 123, 0.8),rgba(121, 121, 134, 0.8)),url("nyaya1.png");
+    margin-top: 30px;
+    background-size: cover;
+    display: flex;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dhatu
+{
+    height: 300px;
+    width: 1965;
+    text-align: center;
+}
+.dhatu h1{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.dhatu p{
+    color: #0a1128;
+    font-size: 3rem;
+}
+
+
+/*fesility*/
+.fesility{
+    height: 50px;
+    width: 1965;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+.fesbox{
+    height: 450px;
+    width: 1965;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.fesbox1{
+    height: 500;
+    width: 25%;
+    background-color: white;
+   
+
+}
+.fesimg1{
+    height: 350px;
+    width: 100%;
+   
+    background-image: url("fesimg1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.festext1{
+    height: 80pxpx;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.fesimg2{
+    height: 350px;
+    width: 100%;
+   
+    background-image: url("aurtrt.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+.festext2{
+    height: 80pxpx;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+.fesimg3{
+    height: 350px;
+    width: 100%;
+   
+    background-image: url("ayurveda.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.festext3{
+    height: 80pxpx;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.festext3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.fesimg4{
+    height: 350px;
+    width: 100%;
+   
+    background-image: url("fesimg44.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.festext4{
+    height: 80pxpx;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+.fesimg5{
+    height: 350px;
+    width: 100%;
+   
+    background-image: url("fesimg5.jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.festext5{
+    height: 80pxpx;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+.fesimg6{
+    height: 350px;
+    width: 100%;
+   
+    background-image: url("fesimg6.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.festext6{
+    height: 80pxpx;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+
+
+/*goal*/
+.goal{
+    height: 80px;
+    width: 1964;
+    /*background: linear-gradient(30deg, rgb(86, 86, 120),white);*/
+    background-color: #fff;
+    text-align: center;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+.goal0 p{
+    color: rgb(111, 99, 80);
+    font-size: 1rem;
+}
+.goal0{
+    background-color: #dad4cd;
+    height: 70px;
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 380px;
+   
+}
+
+/*pics*/
+.pics
+{
+    height: 350px;
+    width: 1965;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 50px;
+
+}
+
+
+.pics1{
+    height: 350px;
+    width: 20%;
+    background-color: white;
+    transition: 1sec;
+}
+
+.pics1:hover{
+    transform:scale(1.3);
+    z-index: 2;
+}
+
+.pic11{
+    height: 300px;
+    width: 100%;
+    background-image: url("vrwi.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+
+.pictext11
+{
+    height: 50px;
+    width: 100%;
+
+}
+.pic12{
+    height: 300px;
+    width: 100%;
+    background-image: url("vrim1.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+.pic13{
+    height: 300px;
+    width: 100%;
+    background-image: url("vrbody.webp");
+    background-size: cover;
+    border-radius: 5px;
+}
+.pic14{
+    height: 300px;
+    width: 100%;
+    background-image: url("yogavr.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+/*container*/
+.bigg{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /*background-image: url("glaxy.jpg.jpg");*/
+    background-color:;
+    background-size: cover;
+    margin-top: 20px;
+    /*background: linear-gradient(30deg, rgb(86, 86, 120),white);*/
+    background-color: #fff;
+}
+.container {
+    width: 400px;
+    height: 420px;
+    perspective: 800px;
+    overflow: hidden;
+    margin-top: 5PX;
+    box-shadow: 0 0 5px 2px rgba(81, 46, 46, 0.496);
+
+}
+
+.container:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg) ;
+
+}
+.card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back{
+    height: 100%;
+    width: 100%;
+    
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+
+.front{
+   /* background-image: url("n1.jpg");*/
+    background-color:  #edede9;;
+    background-size: cover;
+   
+}
+.back{
+    
+    transform: rotateY(180deg) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(5, 9, 9);
+    background: linear-gradient(30deg, rgb(245, 247, 248),white);
+}
+
+.boxveda{
+
+    width: 400px;
+    height: 300x;
+    border: 2px sold black;
+    background-color: white;
+   margin-top: 10px;
+   text-align: center;
+}
+.box-image{
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    background-color: #2f3d22;
+}
+
+.conta{
+    height: 300px;
+    width: 1965;
+    background-color: #e1dbdb;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+.contames p{
+    color: #264653;
+}
+
+.contames
+{
+    height: 200px;
+    width: 60%;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.contaform{
+    height: 190px;
+    width: 30%;
+    align-items: center;
+    background-color: #e1dbdb;
+}
+.field{
+    width: 40%;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #e1dbdb;
+    border-radius: 10px;
+}
+.area{
+    height: 80px;
+    padding-top: 5px;
+}
+
+.but{
+    width: 100px;
+}
+
+
+.foot{
+    height: 370px;
+    width: 1964;
+    background-color: #edede9;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border-radius: 30px;
+    
+}
+
+.div1{
+    height: 300;
+    width: 15%;
+    background-color: #edede9;
+    margin-top: 100px;
+    color: black;
+    
+
+}
+.div1 a{
+    text-decoration: none;
+    color: #0a1128;
+}
+.div2{
+    height: 300;
+    width: 15%;
+    background-color: #edede9;
+    margin-top: 100px;
+    color: black;
+    display: inline;
+    color: #2f3d22;
+
+}
+.div3{
+    height: 300;
+    width: 15%;
+    background-color: #edede9;
+    margin-top: 100px;
+    color: black;
+}
+.div4{
+    height: 300;
+    width: 15%;
+    background-color: #edede9;
+    margin-top: 300px;
+    color: black;
+    padding-right: 10px;
+}
+.div4 h1{
+    color: #936639;
+     text-decoration: dotted ;
+}
+.div2 a{
+    text-decoration: none;
+    color: #0a1128;
+}
+
+.div3 a{
+    text-decoration: none;
+    color: #0a1128;
+}
+
+.line{
+    height: 5px;
+    width: 1965;
+    background-color: #2f3d22;
+}
+
+.social{
+    height: 50px;
+    width: 1964;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    margin-top: 20px;
+    color: black;
+    font-size: 1rem;
+}
+
+
+
+.foot h3{
+    color: #0a1128;
+    text-decoration: none;
+}
+
+.auto-main{
+    color: #ffb703;
+}
+

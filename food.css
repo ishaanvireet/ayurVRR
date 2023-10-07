@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins ',sans-serif;
+    box-sizing: border-box;
+}
+
+.ayur{
+    height: 80px;
+    width: 1965;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    border-top-left-radius: 3px solid black;
+}
+.logo{
+    height: 55px;
+    width: 250px;
+    /*color: rgb(44, 38, 35);*/
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;  
+    font-family: serif; 
+   background-image: url("ayurf.png");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ayur a{
+    padding-left: 800px;
+    text-decoration: none;
+    color: #0a1128;
+    width: 60px;
+    height: 10px;
+    font-size: 1rem;
+   
+}
+
+.hed{
+    height: 150px;
+    width: 1965;
+    text-align: center;
+    border-top: 3px solid black;
+   border-radius: 20px;
+}
+.hed h1{
+    color: #9a031e;
+    font-size: 3rem;
+}
+
+
+
+.box3 a{
+    color: #373635;
+    text-decoration: none;
+    
+}
+.box3{
+    height: 40px;
+    width: 300;
+    background-color: #fff;
+    color: black;
+   /* font-family: Arial, Helvetica, sans-serif;*/
+    text-align: center;
+    justify-content: center;
+    /*border: 1px solid black;*/
+    border-radius: 5px;
+   
+   
+}
+
+.food1{
+    height: 600px;
+    width: 1965;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 5px;
+    border-top: 2px solid black;
+}
+
+.food11{
+    height: 400px;
+    width: 400px;
+    background-image: url("khis.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+.food21{
+    height: 400px;
+    width: 400px;
+    background-image: url("masala.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+.food31{
+    height: 400px;
+    width: 400px;
+    background-image: url("salad.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+.food41{
+    height: 400px;
+    width: 400px;
+    background-image: url("khis.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+
+.food22{
+    height: 650px;
+    width: 800px;
+    background-color: white);
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.food22 h1{
+    font-size: 2rem;
+    color: #d59b61;
+}
+
+.food22  p{
+    color: black;
+}
+.food2{
+    height: 650px;
+    width: 1965;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-top: 3px solid black;
+}
+
+.food3{
+    height: 1200px;
+    width: 1965;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    background-color: white;
+    margin-top: 50px;
+    border-top: 3px solid black;
+}
+.food33{
+    height: 1200px;
+    width: 800px;
+    background-color: white);
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.food33 h1{
+    font-size: 2rem;
+    color: #d59b61;
+}
+
+.food33  p{
+    color: black;
+}
+
+.food4{
+    height: 600px;
+    width: 1965;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenlyr;
+    background-color: white;
+}
+
+.foot{
+    height: 370px;
+    width: 1964;
+    background-color: #edede9;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border-radius: 30px;
+    
+}
+
+.div1{
+    height: 300;
+    width: 15%;
+    background-color: #edede9;
+    margin-top: 100px;
+    color: black;
+    
+
+}
+.div1 a{
+    text-decoration: none;
+    color: #0a1128;
+}
+.div2{
+    height: 300;
+    width: 15%;
+    background-color: #edede9;
+    margin-top: 100px;
+    color: black;
+    display: inline;
+    color: #2f3d22;
+
+}
+.div3{
+    height: 300;
+    width: 15%;
+    background-color: #edede9;
+    margin-top: 100px;
+    color: black;
+}
+.div4{
+    height: 300;
+    width: 15%;
+    background-color: #edede9;
+    margin-top: 300px;
+    color: black;
+    padding-right: 10px;
+}
+.div4 h1{
+    color: #936639;
+     text-decoration: dotted ;
+}
+.div2 a{
+    text-decoration: none;
+    color: #0a1128;
+}
+
+.div3 a{
+    text-decoration: none;
+    color: #0a1128;
+}
+
